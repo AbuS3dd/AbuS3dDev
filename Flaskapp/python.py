@@ -58,4 +58,4 @@ def signup():
 
 if __name__ == "__main__":
     print("Allowed activation codes:", activation_codes)
-    app.run(debug=True)
+    app.run(debug=true)
