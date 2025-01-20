@@ -8,7 +8,7 @@ from email.mime.text import MIMEText
 app = Flask(__name__)
 
 # قائمة أكواد التفعيل العشوائية
-activation_codes = [''.join(random.choices(string.ascii_letters + string.digits, k=8)) for _ in range(5)]
+activation_codes = ['12'.join(random.choices(string.ascii_letters + string.digits, k=8)) for _ in range(5)]
 
 # التحقق من صحة البريد الإلكتروني
 def is_valid_email(email):
